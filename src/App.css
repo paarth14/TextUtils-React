@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+.form-check-input {
+  position: absolute;
+  margin-top: 0.4rem;
+  margin-left: 8.75rem;
+}
+
 #stylingButton{
   margin-left: 135px;
   height: 18px;
