@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+#stylingButton{
+  margin-left: 135px;
+  height: 18px;
+}
+
+#stylingButton2{
+  margin-left: 140px;
+  height: 18px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
