@@ -50,24 +50,14 @@ function App() {
           <div className="container my-3">
             <Alert alert={alert} />
             <Routes>
-              <Route exact path="/about" element={<About />}></Route>
+              <Route exact path="/about" element={<About mode={mode}/>}></Route>
               <Route
                 exact
                 path="/"
                 element={
-                  <TextForm
-                    showAlert={showAlert}
-                    heading="Enter the text to analyze below"
-                    mode={mode}
-                  />
-                }
+                  <TextForm showAlert={showAlert} heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode}/>}
               ></Route>
             </Routes>
-            <TextForm
-              showAlert={showAlert}
-              heading="Enter the text to analyze below"
-              mode={mode}
-            />
           </div>
         </Fragment>
       </Router>
